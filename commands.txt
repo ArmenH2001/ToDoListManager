@@ -1,0 +1,10 @@
+add_task -name {task_name}
+add_task -name {task_name1}
+add_task -name {task_name2}
+add_task -name {task_name3}
+add_task -name {task_name4}
+add_tsk -name {task_name}
+complete_task -name {task_name}
+complete_task -name {task_name2}
+complete_task -name {task_name4}
+list_tasks
