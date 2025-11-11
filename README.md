@@ -56,22 +56,6 @@ The structure makes the system easily extendable: to add a new command or flag, 
 
 \- C++17 or later  
 
-\- Tested on Windows 11 / Qt Creator 10
-
-
-
-\*\*Steps\*\*
-
-1\. Open the project file `ToDoListManager.pro` in \*\*Qt Creator\*\*.  
-
-2\. Select a Qt kit (MinGW or MSVC).  
-
-3\. Build the project (`Ctrl + B`).  
-
-4\. Run (`Ctrl + R`).  
-
-
-
 ---
 
 
@@ -82,15 +66,15 @@ The structure makes the system easily extendable: to add a new command or flag, 
 
 |----------|--------------|----------|
 
-| `add\_task -name {Task}` | Add a new task | `add\_task -name {Buy milk}` |
+| `add_task -name {Task}` | Add a new task | `add_task -name {Buy milk}` |
 
-| `remove\_task -name {Task}` | Remove a task | `remove\_task -name {Buy milk}` |
+| `remove_task -name {Task}` | Remove a task | `remove_task -name {Buy milk}` |
 
-| `complete\_task -name {Task}` | Mark as completed | `complete\_task -name {Buy milk}` |
+| `complete_task -name {Task}` | Mark as completed | `complete_task -name {Buy milk}` |
 
-| `list\_tasks` | List all tasks | `list\_tasks` |
+| `list_tasks` | List all tasks | `list_tasks` |
 
-| `execute\_file -file\_path {path}` | Execute commands from file | `execute\_file -file\_path {commands.txt}` |
+| `execute_file -file_path {path}` | Execute commands from file | `execute_file -file_path {commands.txt}` |
 
 
 
