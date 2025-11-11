@@ -74,7 +74,7 @@ The structure makes the system easily extendable: to add a new command or flag, 
 
 | `list_tasks` | List all tasks | `list_tasks` |
 
-| `execute_file -file_path {path}` | Execute commands from file | `execute_file -file_path {commands.txt}` |
+| `execute_file -file_path {path}` | Execute commands from file | `execute_file -file_path {..\commands.txt}` |
 
 
 
